@@ -1,0 +1,163 @@
+/* global reset */
+*,*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* global style */
+html{
+    font-size: 62.5%;
+}
+
+/* overall container styling */
+.card-container{
+    width: 90%;
+    margin: 11rem auto;
+    padding: 0 5rem;
+}
+
+/* content container styling */
+.content{
+    display: flex;
+    width: 100%;
+    padding: 4rem;
+    justify-content: center;
+    box-shadow: .2rem .3rem -.15rem grey;
+}
+
+.sedan-content{
+    background-color: #E28525;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+    width:25%;
+    border-radius: .5rem;
+    transition: all ease-in-out 2.5s;
+    box-shadow:.1rem 0.2rem .3rem grey
+}
+.suv-content{
+    background-color: #016972;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+    width:25%;
+    border-radius: .5rem;
+    transition: all ease-in-out 2.5s;
+    box-shadow:.1rem 0.2rem .3rem grey
+}
+.luxury-content{
+    background-color: #00403F;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+    width:25%;
+    border-radius: .5rem;
+    transition: all ease-in-out 2.5s;
+}
+.p-sedan,
+.p-suv,
+.p-luxury
+{
+    width: 65%;
+    padding-bottom: 3rem;
+    /* padding-right: 2rem; */
+    /* height: 35rem; */
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+}
+.car-btn{
+     /* border: .2rem solid; */
+     display: flex;
+     justify-content: flex-start;
+     width: 70%;
+}
+/* heading styling */
+.title{
+    color:white;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* icon-svg styling */
+img{
+    margin-top: 4rem;
+}
+/* paragraph styling */
+.description{
+    color: white;
+    font-size: 1.45rem;
+    width: 100%;
+    line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: 100; */
+    font-style: normal;
+    opacity: .8;
+}
+/* button styling */
+button{
+    height: 7rem;
+    width: 100%;
+    border-radius: 5rem;
+    border: none;
+    font-weight: bold;
+}
+.button-1{
+    color: #E28525;
+}
+.button-2{
+    color: #016972;
+}
+.button-3{
+    color: #00403F;
+}
+
+@media (max-width: 800px){
+    .content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 4rem;
+    justify-content: center;
+    box-shadow: .2rem .3rem -.15rem grey;
+}
+    .content{
+    display: flex;
+    width: 100%;
+    padding: 4rem;
+    justify-content: center;
+    box-shadow: .2rem .3rem -.15rem grey;
+}
+
+.sedan-content{
+    background-color: #E28525;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+    width:100%;
+    border-radius: .5rem;
+    transition: all ease-in-out 2.5s;
+    box-shadow:.1rem 0.2rem .3rem grey
+}
+.suv-content{
+    background-color: #016972;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+    width:100%;
+    border-radius: .5rem;
+    transition: all ease-in-out 2.5s;
+    box-shadow:.1rem 0.2rem .3rem grey
+}
+.luxury-content{
+    background-color: #00403F;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+    width:100%;
+    border-radius: .5rem;
+    transition: all ease-in-out 2.5s;
+}
+}
