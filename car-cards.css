@@ -14,17 +14,17 @@ html{
 /* overall container styling */
 .card-container{
     width: 90%;
-    margin: 11rem auto;
-    padding: 0 5rem;
+    margin: 4rem auto;
+    padding: 0 1rem;
 }
 
 /* content container styling */
 .content{
     display: flex;
     width: 100%;
-    padding: 4rem;
+    padding: 1rem;
     justify-content: center;
-    box-shadow: .2rem .3rem -.15rem grey;
+    box-shadow: .2rem .3rem .25rem grey;
 }
 
 .sedan-content{
@@ -32,7 +32,7 @@ html{
     padding-top: 2rem;
     padding-left: 2rem;
     padding-bottom: 3rem;
-    width:25%;
+    width:30%;
     border-radius: .5rem;
     transition: all ease-in-out 2.5s;
     box-shadow:.1rem 0.2rem .3rem grey
@@ -42,7 +42,7 @@ html{
     padding-top: 2rem;
     padding-left: 2rem;
     padding-bottom: 3rem;
-    width:25%;
+    width:30%;
     border-radius: .5rem;
     transition: all ease-in-out 2.5s;
     box-shadow:.1rem 0.2rem .3rem grey
@@ -52,7 +52,7 @@ html{
     padding-top: 2rem;
     padding-left: 2rem;
     padding-bottom: 3rem;
-    width:25%;
+    width:30%;
     border-radius: .5rem;
     transition: all ease-in-out 2.5s;
 }
@@ -115,20 +115,18 @@ button{
 }
 
 @media (max-width: 800px){
+    .card-container{
+    width: 90%;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
     .content{
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 4rem;
-    justify-content: center;
-    box-shadow: .2rem .3rem -.15rem grey;
-}
-    .content{
-    display: flex;
-    width: 100%;
-    padding: 4rem;
-    justify-content: center;
-    box-shadow: .2rem .3rem -.15rem grey;
+    padding: 1rem;
+    /* justify-content: center; */
+    box-shadow: .2rem .3rem .25rem grey;
 }
 
 .sedan-content{
